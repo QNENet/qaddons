@@ -15,10 +15,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @Theme(value = "qaddons", variant = Lumo.DARK)
-public class Application implements AppShellConfigurator {
+public class QAddonsApp implements AppShellConfigurator {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(QAddonsApp.class, args);
     }
 
 }
