@@ -3,6 +3,8 @@ package com.qnenet.qaddons.hotswap;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.stereotype.Service;
 
+import com.qnenet.addonhotswappable.api.HotSwappableAddon;
+
 @Service
 public class AddonService {
     private final ObjectFactory<HotSwappableAddon> addonFactory;
